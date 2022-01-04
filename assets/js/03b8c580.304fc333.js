@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktycloud=self.webpackChunktycloud||[]).push([[693],{7341:function(o){o.exports=JSON.parse('{"allTagsPath":"/tycloud/blog/tags","slug":"/tycloud/blog/tags/facebook","name":"facebook","count":1,"permalink":"/tycloud/blog/tags/facebook"}')}}]);
