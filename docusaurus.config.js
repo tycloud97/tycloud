@@ -90,7 +90,11 @@ const config = {
                 label: 'Facebook',
                 href: 'https://www.facebook.com/ty.lonely.qb/',
               },
-            ],
+              {
+                label: 'Tech Radar',
+                href: 'https://tycloud97.github.io/tech-radar/',
+              },
+            ]
           },
           {
             title: 'Xem thêm',
