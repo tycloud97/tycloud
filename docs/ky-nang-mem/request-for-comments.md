@@ -26,7 +26,7 @@ Ngữ cảnh:
 
 Kiến trúc hệ thống theo lược đồ
 
-Tương tự như template
+API doc
 
 Giải thích từng thành phần và cách hoạt động của chúng
 
