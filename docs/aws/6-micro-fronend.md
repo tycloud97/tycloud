@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 ### Independent Deployment
 
 Each micro frontend has its own git repository, its own `package.json` file, and its own build tool configuration. As a result, each micro frontend has **an independent build process** and **an independent deploy / CI**. This generally means that each repo has fast build times.

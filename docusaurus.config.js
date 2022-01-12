@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Tý Cloud',
-  tagline: 'Chia sẻ kinh nghiệm và kiến thức CNTT thực tế',
+  tagline: 'Chia sẻ kinh nghiệm và kiến thức Cloud thực tế',
   url: 'https://tycloud.github.io',
   baseUrl: '/tycloud/',
   onBrokenLinks: 'throw',
@@ -53,12 +53,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Về tôi',
+            label: 'Sổ tay',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/tycloud97/tycloud',
+            label: 'Đóng góp bài viết',
             position: 'right',
           },
         ],
@@ -67,16 +67,16 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Tech Stack',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Tech Radar',
+                href: 'https://tycloud97.github.io/tech-radar/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Kết nối',
             items: [
               {
                 label: 'Linkedin',
@@ -89,23 +89,15 @@ const config = {
               {
                 label: 'Facebook',
                 href: 'https://www.facebook.com/ty.lonely.qb/',
-              },
-              {
-                label: 'Tech Radar',
-                href: 'https://tycloud97.github.io/tech-radar/',
-              },
+              }
             ]
           },
           {
-            title: 'Xem thêm',
+            title: 'Liên kết',
             items: [
               {
-                label: 'Bài viết',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/tycloud97',
+                label: 'Blog cũ',
+                href: 'https://tycloud.netlify.app/',
               },
             ],
           },

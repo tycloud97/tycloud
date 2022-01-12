@@ -1,14 +1,14 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
-Authentication Service
+# Dịch vụ xác thực
 
-Authentication sử dụng cho:
+Authentication có 3 loại:
 
-- internal access: Một dịch vụ gọi tới dịch vụ khác cần xác thực
-- external access: Một khách hàng gọi đến một trong các dịch vụ của chúng ta và cần xác thực
-- public access: Công khai
+- **Internal access**: Một dịch vụ gọi tới dịch vụ khác cần xác thực
+- **External access**: Một khách hàng gọi đến một trong các dịch vụ của chúng ta và cần xác thực
+- **Public access**: Công khai hoặc sử dụng key cố định
 
 Cách triển khai internal access:
 
@@ -27,5 +27,8 @@ Cách triển khai internal access:
   - Use same method as above *“define a check which determines if the request call contains a token which includes an id_token and an access_token or JWT token"*
   
   - The custom authorizer then returns the policy document attached to the role contained in the JWT token
-  
-  - [Using API keys](https://cloud.google.com/docs/authentication/api-keys) | https://stripe.com/docs/keys
+
+Read more:
+
+- [Using API keys](https://cloud.google.com/docs/authentication/api-keys)
+- https://stripe.com/docs/keys

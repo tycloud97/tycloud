@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # AWS Cognito
 
-## Pros:
+## Ưu điểm:
 
 - Fully managed service.
 
@@ -28,7 +28,7 @@ sidebar_position: 3
 
 - Extensible due to lambda functions available at every User Pool workflow interaction. [[Reference](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-identity-pools-working-with-aws-lambda-triggers.html "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-identity-pools-working-with-aws-lambda-triggers.html")]
 
-## Cons:
+## Nhược điểm:
 
 - Pricing can become a pain-point around Cognito. More details at [Pricing](https://aws.amazon.com/cognito/pricing/ "https://aws.amazon.com/cognito/pricing/") , and [advanced security features](https://aws.amazon.com/blogs/security/how-to-use-new-advanced-security-features-for-amazon-cognito-user-pools/ "https://aws.amazon.com/blogs/security/how-to-use-new-advanced-security-features-for-amazon-cognito-user-pools/")
 

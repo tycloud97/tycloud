@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    image: '/img/undraw_docusaurus_mountain.svg',
+    title: 'AWS',
+    image: 'img/features/aws.png',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Chia sẻ về các dịch vụ trên AWS.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    image: '/img/undraw_docusaurus_tree.svg',
+    title: 'Kỹ năng lập trình',
+    image: 'img/features/code.png',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Chia sẻ về kỹ năng lập trình, tối ưu năng suất lập trình.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    image: '/img/undraw_docusaurus_react.svg',
+    title: 'Thiết kế hệ thống',
+    image: 'img/features/design.png',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Chia sẻ kỹ năng thiết kế hệ thống chịu tải cao và độ trễ thấp.
       </>
     ),
   },
