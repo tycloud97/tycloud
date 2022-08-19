@@ -14,4 +14,6 @@ sidebar_position: 1
 
 ## Max the Quality 
 
-## training
+## Training
+
+## Format code
