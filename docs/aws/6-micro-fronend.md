@@ -12,7 +12,7 @@ While each micro frontend defines its dependencies in its own package.json, for 
 
 ### Local Development
 
-Easy local development setup is super important. You only need to clone the main epilot360-root repository to get a local development setup running.
+Easy local development setup is super important. You only need to clone the main repository to get a local development setup running.
 
 ### Overrides
 
@@ -20,6 +20,6 @@ With import-maps, developing an application locally is as simple as setting a lo
 
 ### Technology Agnostic
 
-While we expect engineers working on epilot to follow a [set of core principles](https://github.com/epilot-dev/engineering-principles "https://github.com/epilot-dev/engineering-principles") when making decisions, this approach allows each team to be able to choose and evolve their tech stack without having to coordinate with other teams. [single-spa-parcels](https://single-spa.js.org/docs/parcels-overview "https://single-spa.js.org/docs/parcels-overview") are a great way to hide implementation details while providing a neutral interface to others.
+While we expect engineers working on to follow a [set of core principles](https://github.com/-dev/engineering-principles "https://github.com/-dev/engineering-principles") when making decisions, this approach allows each team to be able to choose and evolve their tech stack without having to coordinate with other teams. [single-spa-parcels](https://single-spa.js.org/docs/parcels-overview "https://single-spa.js.org/docs/parcels-overview") are a great way to hide implementation details while providing a neutral interface to others.
 
 https://single-spa.js.org/
